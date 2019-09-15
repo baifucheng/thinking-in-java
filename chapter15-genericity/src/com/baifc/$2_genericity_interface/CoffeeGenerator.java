@@ -56,10 +56,10 @@ public class CoffeeGenerator implements Generator<Coffee>, Iterable<Coffee> {
 
     public static void main(String[] args) {
         CoffeeGenerator generator = new CoffeeGenerator();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 5; i++) {
             System.out.println(generator.next());
         }
-        for (Coffee c : new CoffeeGenerator(3)) {
+        for (Coffee c : new CoffeeGenerator(5)) {
             System.out.println(c);
         }
     }

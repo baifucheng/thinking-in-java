@@ -9,7 +9,7 @@ package com.baifc.$2_genericity_interface;
  */
 public class Coffee {
 
-    private static long counter = 8;
+    private static long counter = 0;
 
     private final long id = counter++;
 
